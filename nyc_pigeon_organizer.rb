@@ -5,7 +5,7 @@ def nyc_pigeon_organizer(data)
 end
 
 def collect_attr(new_hash, key, val)
-  val.
+  val.each {
   
   
   
