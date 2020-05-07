@@ -23,7 +23,6 @@ def collect_attr(new_hash, key, val)
   binding.pry
 end 
   
-  
 # pigeon_data = {
 #   :color => {
 #     :brown => ["Luca"],
