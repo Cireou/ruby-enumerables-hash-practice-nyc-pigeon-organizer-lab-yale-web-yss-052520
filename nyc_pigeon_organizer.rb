@@ -10,6 +10,8 @@ def collect_attr(new_hash, key, val)
   val.each do |attr_val, names| 
     for name in names
       new_hash[name] = {} if !new_hash[name]
-      new_hash[name] 
+      new_hash[name][key] = [] if !new_hash[name][key]
+      new_hash[name][key].push(attr_val)
+    end 
   end 
   
