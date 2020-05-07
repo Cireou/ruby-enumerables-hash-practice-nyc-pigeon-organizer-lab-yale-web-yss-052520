@@ -14,6 +14,7 @@ def collect_attr(new_hash, key, val)
       new_hash[name][key].push(attr_val)
     end 
   end 
+end 
   
   
 # pigeon_data = {
