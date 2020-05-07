@@ -16,7 +16,7 @@ def collect_attr(new_hash, key, val)
       binding.pry
       new_hash[name][key] = [] if !new_hash[name][key]
       binding.pry
-      new_hash[name][key].push(attr_val)
+      new_hash[name][key].push(attr_val.to_s)
       binding.pry
     end 
   end 
