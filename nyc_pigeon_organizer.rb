@@ -8,6 +8,6 @@ end
 
 def collect_attr(new_hash, key, val)
   val.each do |attr_val, names| 
-      
+    for   
   end 
   
