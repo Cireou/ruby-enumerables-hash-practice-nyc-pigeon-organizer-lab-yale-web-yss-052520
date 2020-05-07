@@ -15,3 +15,18 @@ def collect_attr(new_hash, key, val)
     end 
   end 
   
+  
+# pigeon_data = {
+#   :color => {
+#     :brown => ["Luca"],
+#     :black => ["Lola"],
+#   },
+#   :gender => {
+#     :male => ["Luca"],
+#     :female => ["Lola"]
+#   },
+#   :lives => {
+#     "Central Park" => ["Lola"],
+#     "Library" => ["Luca"]
+#   }
+# }
